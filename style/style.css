@@ -1,12 +1,31 @@
-.nav-color {
-  color: #757575;
+body {
+  font-family: Roboto, sans-serif;
+  width: 1600px;
+  height: 2349px;
+
+  background: #ffffff;
+}
+/* klasa dla head */
+.text-Web {
+  font: Raleway;
+  weight: 700px;
+  color: #212121;
+}
+.higlight {
+  color: #2196f3;
+}
+.text-nav {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
 }
-a {
-  text-decoration: none;
-  color: #212121;
-  display: inline;
+.text-adress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  color: #757575;
 }
+/* klasa dla linków  */
 a:hover,
 a:focus,
 a:active {
@@ -15,18 +34,14 @@ a:active {
   cursor: pointer;
   text-decoration: none;
 }
-
-.text-head {
-  font-family: "Roboto", "sans-serif";
-  font-style: normal;
-  font-weight: 500;
-}
-.text-color-main {
+a {
+  text-decoration: none;
   color: #212121;
-  font-weight: 700;
+  display: inline;
 }
+/* klasa button */
 .frame-button:hover {
-  background: #0508c0;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: opx;
@@ -37,17 +52,20 @@ a:active {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  background: #f5f4fa;
 }
 .button-front {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  color: #ffffff;
+  color: #212121;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
+}
+.button-front:hover {
+  color: #ffffff;
 }
 .end-front {
   width: 1600px;
@@ -56,32 +74,7 @@ a:active {
   top: 80px;
   background: #2f303a;
 }
-.end {
-  background: #2f303a;
-}
-
-.higlight {
-  color: #2196f3;
-}
-
-.item-wbr-up {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-}
-
-.item-wbr {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-}
-.footer {
-  color: #f5f4fa;
-}
+/* klasa main */
 h1 {
   width: 696px;
   height: 120px;
@@ -98,98 +91,69 @@ h1 {
 
   color: #ffffff;
 }
-h2 {
+li {
+  list-style-type: none;
+}
+.lorem {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  color: #212121;
 }
-p {
+.lorem-ipsum {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #757575;
 }
-h3 {
+.item-main {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-
-  color: #212121;
 }
-.menager {
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
-
-  background: #f5f4fa;
-}
-.manager-foto {
+.manager {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  color: #212121;
-  position: absolute;
 }
-
-ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 96;
+.manager-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
 }
-.select {
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+/* footer */
+.text-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  color: #2196f3;
 }
-.select-foto {
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
+.text-studio {
+  color: #ffffff;
 }
-.footter-end {
-  display: flex;
-  justify-content: flex-start;
-
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
+.end {
   background: #2f303a;
 }
-.head {
-  display: flex;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
-  justify-content: space-between;
+.m-Warszaw {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
 }
-.nav-li {
-  padding-left: 30px;
-  padding-right: 30x;
-  margin-right: auto;
-  margin-left: 0px;
-  padding-bottom: 40px;
+.adres {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
 }
-body {
-  position: relative;
-  width: 1600px;
-  height: 2349px;
-
-  background: #ffffff;
+/* portfolio style */
+.image {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
 }
-li {
-  list-style-type: none;
-}
-.h2-menager {
-  width: 210px;
-  height: 42px;
-  left: 695px;
-  top: 1543px;
+.image-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
 }
