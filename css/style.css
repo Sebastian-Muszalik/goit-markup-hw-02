@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   width: 1600px;
   height: 2349px;
 
@@ -8,19 +8,20 @@ body {
 /* klasa dla head */
 .text-Web {
   font: Raleway;
-  height: 700;
+  height: 700px;
+  font-style: normal;
   color: #212121;
+  line-height: 1.2;
 }
+
 .higlight {
   color: #2196f3;
 }
 .text-nav {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
 }
 .text-adress {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   color: #757575;
@@ -42,7 +43,38 @@ a {
 /* klasa button */
 .frame-button:hover {
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(143, 11, 11, 0.15);
+  border-radius: 4px;
+  border: opx;
+  cursor: pointer;
+  line-height: 1.8;
+}
+.frame-button2 {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #f5f4fa;
+  line-height: 1.8;
+}
+.button-front2 {
+  font-style: normal;
+  font-weight: 700;
+  color: #212121;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  line-height: 1.8;
+}
+.button-front2:hover {
+  color: #ffffff;
+  line-height: 1.8;
+}
+/* klasa button dla portfolio */
+.frame-button2:hover {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(143, 11, 11, 0.15);
   border-radius: 4px;
   border: opx;
   cursor: pointer;
@@ -52,20 +84,19 @@ a {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #f5f4fa;
+  background: #2196f3;
 }
 .button-front {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  color: #212121;
+  color: #ffffff;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
 }
 .button-front:hover {
-  color: #ffffff;
+  color: #212121;
 }
 .end-front {
   width: 1600px;
@@ -80,7 +111,6 @@ h1 {
   height: 120px;
   left: 452px;
   top: 280px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -95,28 +125,23 @@ li {
   list-style-type: none;
 }
 .lorem {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
 }
 .lorem-ipsum {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #757575;
 }
 .item-main {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
 }
 .manager {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
 }
 .manager-item {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
 }
@@ -126,6 +151,7 @@ li {
   font-style: normal;
   font-weight: 700;
   color: #2196f3;
+  line-height: 1.2;
 }
 .text-studio {
   color: #ffffff;
@@ -134,25 +160,21 @@ li {
   background: #2f303a;
 }
 .m-Warszaw {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
 }
 .adres {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
 /* portfolio style */
 .image {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
 }
 .image-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #757575;
