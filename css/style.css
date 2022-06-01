@@ -1,16 +1,29 @@
+:root {
+  --color: #ffffff;
+  --color2: #2f303a;
+  --color3: #f5f4fa;
+}
+.color {
+  background-color: var(--color);
+}
+.color2 {
+  background-color: var(--color2);
+  height: 600px;
+}
+.color3 {
+  background-color: var(--color3);
+  height: 648px;
+}
+.color4 {
+  background-color: var(--color2);
+  height: 252px;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  width: 1600px;
   height: 2349px;
 }
 ul {
   display: flex;
-}
-.background {
-  background: #ffffff;
-}
-.background::selection {
-  background: #2f303a;
 }
 
 /* klasa dla head */
@@ -171,11 +184,13 @@ li {
   color: #2196f3;
   line-height: 1.2;
 }
-.text-studio {
+.Web-foot {
+  font: Raleway;
+  font-style: normal;
+  height: 700px;
   color: #ffffff;
-}
-.end {
-  background: #2f303a;
+  line-height: 1.2;
+  font-size: 26px;
 }
 .m-Warszaw {
   font-size: 14px;
