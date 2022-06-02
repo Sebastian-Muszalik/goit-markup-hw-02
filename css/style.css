@@ -28,9 +28,9 @@ ul {
 
 /* klasa dla head */
 .text-Web {
-  font: Raleway;
+  font-family: Raleway;
   font-style: normal;
-  height: 700px;
+  font-weight: 700px;
   color: #212121;
   line-height: 1.2;
   font-size: 26px;
@@ -185,9 +185,9 @@ li {
   line-height: 1.2;
 }
 .Web-foot {
-  font: Raleway;
+  font-family: Raleway;
   font-style: normal;
-  height: 700px;
+  font-weight: 700px;
   color: #ffffff;
   line-height: 1.2;
   font-size: 26px;
